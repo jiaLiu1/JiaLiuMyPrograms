@@ -12,7 +12,8 @@ public class Hero {
 	BufferedImage sprite;
 	String name;
 	int x;
-    int y;
+    	int y;
+    	//Hi
 
 	public Hero(String name, String imageLocation, int locationX, int locationY) {
 		this.name = name;
