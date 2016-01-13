@@ -13,7 +13,7 @@ public class Hero {
 	String name;
 	int x;
     	int y;
-    	//Hi
+    	//Hi mister bean
 
 	public Hero(String name, String imageLocation, int locationX, int locationY) {
 		this.name = name;
