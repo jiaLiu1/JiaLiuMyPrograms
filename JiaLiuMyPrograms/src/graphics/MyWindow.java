@@ -127,7 +127,7 @@ public class MyWindow extends JFrame implements KeyListener{
 	public void keyPressed(KeyEvent arg0) {
 		int key = arg0.getKeyCode();
 		if(key == KeyEvent.VK_UP){
-			boy.moveUp();
+			boy.moveUp();			
 		}
 		else if(key == KeyEvent.VK_DOWN){
 			boy.moveDown();
