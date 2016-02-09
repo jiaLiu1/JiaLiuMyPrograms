@@ -6,7 +6,7 @@ public class Towers {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int disc = 1;
+		int disc = 2;
 		String A = "A";
 		String B = "B";
 		String C = "C";
@@ -19,6 +19,7 @@ public class Towers {
 		else{
 			move((n-1), from, to, other);
 			System.out.println("Move a disc from " + from + " to " + to);
+			move((n-1), other, from, to);
 		}
 	}
 }
