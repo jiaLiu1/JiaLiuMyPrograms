@@ -25,6 +25,7 @@ public class gunStats extends Gun{
 //		damage = newDamage;
 //	}
 	
+	
 	public int computeDamage()
 	{
 		System.out.println("Setting damage of " + getNameOfGun());
