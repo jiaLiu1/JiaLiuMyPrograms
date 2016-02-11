@@ -25,10 +25,5 @@ public class GunRack implements Guns{
 	    gun2.computeDamage();
 	    gun2.damageCheck();
 	}
-
-	public void printDamage(gunStats gun) {
-		// TODO Auto-generated method stub
-		
-	}
 	
 }

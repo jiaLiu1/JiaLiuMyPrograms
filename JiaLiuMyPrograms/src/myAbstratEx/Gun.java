@@ -31,17 +31,17 @@ public abstract class Gun {
 //		this.nameOfGun = nameOfGun;
 //	}
 //	
-//	public int getAmmoCapacity() {
-//		return ammoCapacity;
-//	}
+	public int getAmmoCapacity() {
+		return ammoCapacity;
+	}
 //	
 //	public void setAmmoCapacity(int ammoCapacity) {
 //		this.ammoCapacity = ammoCapacity;
 //	}
 //	
-//	public int getTotalAmmo() {
-//		return totalAmmo;
-//	}
+	public int getTotalAmmo() {
+		return totalAmmo;
+	}
 //	
 //	public void setTotalAmmo(int totalAmmo) {
 //		this.totalAmmo = totalAmmo;
