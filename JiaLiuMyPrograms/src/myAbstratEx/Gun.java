@@ -35,9 +35,9 @@ public abstract class Gun {
 		return ammoCapacity;
 	}
 //	
-//	public void setAmmoCapacity(int ammoCapacity) {
-//		this.ammoCapacity = ammoCapacity;
-//	}
+	public void setAmmoCapacity(int ammoFired) {
+		this.ammoCapacity = ammoFired;
+	}
 //	
 	public int getTotalAmmo() {
 		return totalAmmo;

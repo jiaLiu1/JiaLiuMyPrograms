@@ -20,7 +20,15 @@ public class Gunss implements Guns{
 	}
 	
 	public void printStats(gunStats gun){
-		System.out.print(gun.getNameOfGun() + " [Ammo:" + gun.getAmmoCapacity() + "/" + gun.getTotalAmmo() + "]");
+		System.out.println(gun.getNameOfGun() + " [Ammo:" + gun.getAmmoCapacity() + "/" + gun.getTotalAmmo() + "]" + "\n");
+		for(int i = gun.getAmmoCapacity()-1; i >= 0; i--){
+			if(i == 0){
+				System.out.println("You fired a shot. You are empty!");
+			}
+			else System.out.println("You fired a shot.");
+			gun.setAmmoCapacity(i);
+			System.out.println(gun.getNameOfGun() + " [Ammo:" + gun.getAmmoCapacity() + "/" + gun.getTotalAmmo() + "]" + "\n");
+		}
 	}
 	
 	public static void main(String[] args) {
@@ -29,7 +37,7 @@ public class Gunss implements Guns{
 		//Pistols.add(gun1);
 		obj.printDamage(Pistol[0]);
 		obj.printDamage(pistolGradeC2);
-		obj.printStats(pistolGradeC2);
+		obj.printStats(Pistol[1]);
 	}
 
 }
